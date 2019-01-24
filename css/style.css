@@ -1,0 +1,245 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video  {
+	background: transparent;
+	border: 0;	
+	font-size: 100%;
+	margin: 0;
+	outline: 0;	
+	padding: 0;
+	vertical-align: baseline;
+}		
+
+article, aside, figure, footer, header, hgroup, nav, section {
+	display: block;
+}
+
+body,
+input, 
+textarea {
+	color: #07a8d6;
+	font: 1em 'Trebuchet MS', Arial, sans-serif;
+}
+
+a {
+	color: #07a8d6;
+	background: transparent;
+	font-size: 100%; 
+	margin: 0; 
+	padding: 0; 
+	vertical-align: baseline; 
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	outline: none;
+}
+
+ul, ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	box-shadow: 0 0 3px rgba(0,0,0,.25); 
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.25);
+	margin: 2em auto 1em auto;
+	padding: 0.5em;
+	width: 25em;
+}
+
+.portrait {
+	margin: 0 auto;
+	text-align: center;
+}
+
+article {
+	clear: both;
+	margin: 0.5em auto;
+	overflow: hidden;
+	padding: 1em;
+}
+
+.emphasized {
+
+	text-align: center;
+	font-style: italic;
+}
+
+.centered {
+	text-align: center;	
+}
+
+h1 {
+	font-size: 48px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h3 {
+	font-size: 18px;
+	margin: 0 auto;
+}
+
+h4 {
+	font-size: 14px;
+	margin: 1em auto;
+	line-height: 1.5em;	
+}
+
+article h2,
+article section {
+	display: block;
+}
+
+footer {
+	font-size: 0.7em;
+	margin: 1em auto;
+	text-align: center;
+}
+
+.books {
+	margin: 15px auto -10px auto;
+}
+
+.navigation {
+	margin: 30px auto;
+	height: 600px;
+	width: 600px;
+	position: relative;
+}
+.circular {
+	list-style-type: none;
+}
+.circular li,
+.info {
+	position: absolute;
+}
+.circular li a {	
+	border-radius: 50px; 
+	background-color: #EFEFEF;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	display: block;
+	height: 100px; 
+	text-indent: -9999px;	
+ 	width: 100px;
+}
+.circular li a:hover {
+	border: 1px solid #888;	
+}
+.nav0 {
+	top: 0;
+	left: 250px;
+}
+.nav1 {
+	top: 35px;
+	left: 375px;
+}
+.nav2 {
+	top: 125px;
+	left: 465px;
+}
+.nav3 {
+	top: 250px;
+	left: 500px;
+}
+.nav4 {
+	top: 370px;
+	left: 465px;
+}
+.nav5 {
+	top: 465px;
+	left: 375px;
+} 
+.nav6 {
+	top: 500px;
+	left: 250px;
+} 
+.nav7 {
+	top: 465px;
+	left: 125px;
+} 
+.nav8 {
+	top: 370px;
+	left: 35px;
+} 
+.nav9 {
+	top: 250px;
+	left: 0;
+} 
+.nav10 {
+	top: 125px;
+	left: 35px;
+} 
+.nav11 {
+	top: 35px;
+	left: 125px;
+}  
+.info {
+	top: 270px;
+	left: 180px;
+}
+
+.foto,
+.circular li a.foto {
+	border: none;
+	background-image: url('../images/tahir_jaha_small.jpg');	
+}
+.bio {	
+	background-image: url('../images/bio.jpg');
+	border: 1px solid #07A8D6;
+}
+.tubeza1 {
+	background-image: url('../images/tubeza1_tymon_oxhaku.jpg');
+	border: 1px solid #07A8D6;
+}
+.tubeza2 {
+	background-image: url('../images/tubeza2_buken.jpg');
+	border: 1px solid #07A8D6;	
+}
+.tubeza3 {
+	background-image: url('../images/tubeza3_mosprek.jpg');
+	border: 1px solid #07A8D6;	
+}
+.tubeza4 {
+	background-image: url('../images/tubeza4_pamireseardhje.jpg');
+	border: 1px solid #07A8D6;	
+}
+.tubeza5 {
+	background-image: url('../images/tubeza5_sofra.jpg');	
+}
+.tubeza6 {
+	background-image: url('../images/tubeza6_nekullen.jpg');	
+}
+.tubeza7 {
+	background-image: url('../images/tubeza7_perseritje.jpg');	
+}
+.tubeza8 {
+	background-image: url('../images/tubeza8_eja.jpg');	
+}
+.tubeza9 {
+	background-image: url('../images/tubeza9_dialog.jpg');	
+}
+.tubeza10 {
+	background-image: url('../images/tubeza10_lulet.jpg');	
+}
+
+.book {
+	display: none;
+}
+
+.book-page .slides {
+	overflow-y: scroll;
+}
+
+.book-page .reveal section img {
+	border: none;
+}
+
+.bookContent {
+	margin: 1.5em 0;
+	text-align: center;
+}
+@media (min-width: 37.5625em) {
+
+}
