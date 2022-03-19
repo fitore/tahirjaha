@@ -21,6 +21,9 @@ textarea {
 
 a {
 	color: #07a8d6;
+}
+
+.circular a {
 	background: transparent;
 	font-size: 100%; 
 	margin: 0; 
@@ -29,14 +32,28 @@ a {
 	text-decoration: none;
 }
 
-a:hover, a:active {
+ a:hover, a:active {
 	outline: none;
+	text-decoration: none;
 }
 
 ul, ol {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+}
+
+
+.links {	
+	max-width: 32em;
+	margin:0 auto;
+	text-align: left;
+}
+.links h3 {
+	margin: 4em 0 1em 0;
+}
+.links li {
+	margin-bottom: 1rem;
 }
 
 .wrapper {
