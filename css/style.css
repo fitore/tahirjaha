@@ -202,42 +202,53 @@ footer {
 	border: none;
 	background-image: url('../images/tahir_jaha_small.jpg');	
 }
-.bio {	
+.bio,
+.circular li a.bio {	
 	background-image: url('../images/bio.jpg');
 	border: 1px solid #07A8D6;
 }
-.tubeza1 {
+.tubeza1,
+.circular li a.tubeza1 {
 	background-image: url('../images/tubeza1_tymon_oxhaku.jpg');
 	border: 1px solid #07A8D6;
 }
-.tubeza2 {
+.tubeza2,
+.circular li a.tubeza2 {
 	background-image: url('../images/tubeza2_buken.jpg');
 	border: 1px solid #07A8D6;	
 }
-.tubeza3 {
+.tubeza3,
+.circular li a.tubeza3 {
 	background-image: url('../images/tubeza3_mosprek.jpg');
 	border: 1px solid #07A8D6;	
 }
-.tubeza4 {
+.tubeza4,
+.circular li a.tubeza4 {
 	background-image: url('../images/tubeza4_pamireseardhje.jpg');
 	border: 1px solid #07A8D6;	
 }
-.tubeza5 {
+.tubeza5,
+.circular li a.tubeza5 {
 	background-image: url('../images/tubeza5_sofra.jpg');	
 }
-.tubeza6 {
+.tubeza6,
+.circular li a.tubeza6 {
 	background-image: url('../images/tubeza6_nekullen.jpg');	
 }
-.tubeza7 {
+.tubeza7,
+.circular li a.tubeza7 {
 	background-image: url('../images/tubeza7_perseritje.jpg');	
 }
-.tubeza8 {
+.tubeza8,
+.circular li a.tubeza8 {
 	background-image: url('../images/tubeza8_eja.jpg');	
 }
-.tubeza9 {
+.tubeza9,
+.circular li a.tubeza9 {
 	background-image: url('../images/tubeza9_dialog.jpg');	
 }
-.tubeza10 {
+.tubeza10,
+.circular li a.tubeza10 {
 	background-image: url('../images/tubeza10_lulet.jpg');	
 }
 
