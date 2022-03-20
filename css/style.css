@@ -45,15 +45,15 @@ ul, ol {
 
 
 .links {	
-	max-width: 32em;
+	max-width: 40em;
 	margin:0 auto;
 	text-align: left;
 }
 .links h3 {
-	margin: 4em 0 1em 0;
+	margin: 4em 0 2rem 0;
 }
 .links li {
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 }
 
 .wrapper {
